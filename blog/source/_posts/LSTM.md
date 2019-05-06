@@ -3,12 +3,15 @@ layout: post
 title: LSTM
 tags: 人工智能
 date: 2018-11-13 12:03:12 #创建时间
+mathjax: true
 ---
 
-$\sum_i(n+k_i)$
+
+
 # LSTM的理解  
 ## 概述  
-LSTM（`Long Short-Term Memory`）是长短期记忆网络，是一种特殊类型的RNN(`Recurrent Neural Network`)  
+LSTM（`Long Short-Term Memory`）是长短期记忆网络，是一种特殊类型的RNN(`Recurrent Neural Network`) 
+
 下图是RNN的简单示意:  
 ![01][01]  
 与RNN不同的是，LSTM在时间流向上有2个输入和输出，其重复的模块也并非一个单一神经网络层(tanh 层),而是由四个神经网络层以一种非常特殊的方式进行交互，如下图示意:     
