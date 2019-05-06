@@ -42,7 +42,7 @@ menu:
 social:
   home:
     title: ice-melt
-    url: http://ice-melt.top
+    url: https://ice-melt.github.io/
     target: true
   github:
     title: Github
